@@ -1,5 +1,5 @@
        IDENTIFICATION DIVISION.
-       PROGRAM-ID. PRGCOB4.
+       PROGRAM-ID. PRGCOB5.
       ******************************************************
       ***   AREA DE COMENTARIOS - REMARKS
       ***   OBJETIVO DO PROGRAMA = OPERACOES ARITMETICAS
