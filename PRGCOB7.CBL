@@ -12,7 +12,7 @@
            DECIMAL-POINT IS COMMA.
        DATA DIVISION.
        WORKING-STORAGE SECTION.
-       77 WRK-PRODUTO      PIC 9(02)     VALUE ZEROS.
+       77 WRK-NOTA1      PIC 9(02)     VALUE ZEROS.
        77 WRK-NOTA2       PIC 9(02)     VALUE ZEROS.       
        77 WRK-MEDIA       PIC 9(02)V9     VALUE ZEROS.
        77 WRK-STATUS      PIC X(12)     VALUE SPACES.
