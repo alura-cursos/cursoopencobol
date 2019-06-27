@@ -1,5 +1,5 @@
        IDENTIFICATION DIVISION.
-       PROGRAM-ID. PRGCOB7.
+       PROGRAM-ID. PRGCOB8-1.
       ******************************************************
       ***   AREA DE COMENTARIOS - REMARKS
       ***   OBJETIVO DO PROGRAMA = COMANDO EVALUATE - EXEMPLO MEDIA
