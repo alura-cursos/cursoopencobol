@@ -26,7 +26,7 @@
              DISPLAY 'NUMERO 2. : ' WRK-NUMERO2.
 
       *********** OPERACAO SOMA - COMANDO ADD *************             
-             ADD WRK-NUMERO1 WRK-NUMERO2 TO WRK-RESULTADO.
+             ADD WRK-NUMERO2 WRK-NUMERO1 TO WRK-RESULTADO.
              DISPLAY '== OPERACAO SOMA ======' WRK-RESULTADO.
              
       *********** OPERACAO SUBTRACAO - COMANDO SUBTRACT *************   
