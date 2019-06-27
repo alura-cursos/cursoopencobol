@@ -1,5 +1,5 @@
        IDENTIFICATION DIVISION.
-       PROGRAM-ID. PRGCOB4.
+       PROGRAM-ID. PRGCOB6.
       ******************************************************
       ***   AREA DE COMENTARIOS - REMARKS
       ***   OBJETIVO DO PROGRAMA = VALOR NEGATIVO - USO DO SINAL
