@@ -1,5 +1,5 @@
        IDENTIFICATION DIVISION.
-       PROGRAM-ID. PRGCOB2.
+       PROGRAM-ID. PRGCOB02.
       ******************************************************
       ***   AREA DE COMENTARIOS - REMARKS 
       ***   OBJETIVO DO PROGRAMA = RECEBER E IMPRIMIR UMA STRING
