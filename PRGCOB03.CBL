@@ -1,5 +1,5 @@
        IDENTIFICATION DIVISION.
-       PROGRAM-ID. PRGCOB3.
+       PROGRAM-ID. PRGCOB03.
       ******************************************************
       ***   AREA DE COMENTARIOS - REMARKS 
       ***   OBJETIVO DO PROGRAMA = RECEBER E IMPRIMIR DATA DO SISTEMA
