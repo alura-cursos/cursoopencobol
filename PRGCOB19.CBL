@@ -1,5 +1,5 @@
        IDENTIFICATION DIVISION.
-       PROGRAM-ID. PRGCOB20.
+       PROGRAM-ID. PRGCOB19.
       ******************************************************
       ***   AREA DE COMENTARIOS - REMARKS
       ***   OBJETIVO DO PROGRAMA = TABELA DE MEMORIA (OCCURS)
