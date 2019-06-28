@@ -1,5 +1,5 @@
        IDENTIFICATION DIVISION.
-       PROGRAM-ID. PRGCOB9.
+       PROGRAM-ID. PRGCOB09.
       ******************************************************
       ***   AREA DE COMENTARIOS - REMARKS
       ***   OBJETIVO DO PROGRAMA = VARIAVEL NIVEL 88
