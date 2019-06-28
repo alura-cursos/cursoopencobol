@@ -2,7 +2,8 @@
        PROGRAM-ID. PRGCOB16.
       ******************************************************
       ***   AREA DE COMENTARIOS - REMARKS
-      ***   OBJETIVO DO PROGRAMA = PERFORM COM REPETICOES FINITAS times
+      ***   OBJETIVO DO PROGRAMA = PERFORM COM REPETICOES FINITAS 
+      ***                            USANDO VARYING
       ***   AUTOR: IVAN
       ***   DATA : XX/XX/20XX
       ******************************************************
