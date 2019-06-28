@@ -11,12 +11,12 @@ Aula 3 - Comandos básicos - 1o programa (PRGCOB1)
      Accept, Display, Move, Stop Run
      
 Aula 4 - Variaveis (PRGCOB2, PRGCOB3 e PRGCOB4)     
-   Niveis 01.02.., 77,  Pictures , Virgula
+   Niveis 01.02.., 77,  Pictures , Virgula, Uso do Sinal
    
 Aula 5 - Comandos Aritmeticos (PRGCOB5 e  PRGCOB6)
    Add, Subtract,Divide, Multiply, Compute
    
-Aula 6 - Tomando decisões
+Aula 6 - Tomando decisões (PRGCOB5 e  PRGCOB6)
     Comandos If/Else e Evaluate
      Operadores de comparação Equal, Greather, Less 
      
@@ -39,7 +39,7 @@ Aula 11 - Formas de usar o Perform
   
 Aula 12 - Tabela de memória - Arrays
       Criacao de variaveis tipo indice (array)
-       Comando OCCURS
+      Comandos OCCURS e REDEFINES
 
 
 
