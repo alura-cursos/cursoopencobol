@@ -42,7 +42,7 @@
                 END-EVALUATE.
                 
                DISPLAY '==========================='.
-                   IF WRK-FRETE = 0 
+                   IF WRK-FRETE GREATER 0 
                        DISPLAY 'NAO PODEMOS ENTREGAR NESSE ESTADO'
                    ELSE   
                        DISPLAY 'VALOR DO FRETE   ' WRK-FRETE
