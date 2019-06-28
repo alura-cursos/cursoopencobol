@@ -1,5 +1,5 @@
        IDENTIFICATION DIVISION.
-       PROGRAM-ID. PRGCOB1.
+       PROGRAM-ID. PRGCOB01.
       ******************************************************
       ***   AREA DE COMENTARIOS - REMARKS 
       ***   OBJETIVO DO PROGRAMA = MOSTRAR A STRING HELLO, ALURA
