@@ -1,0 +1,46 @@
+Aula 1 - Introdução - Preparação do ambiente
+  Origem, aplicações, mercado de trabalho
+  Opcoes de compiladores online (JOODLE, GLOT.IO)
+  Baixar, configurar e instalar OPENCOBOL (Windows)
+  
+Aula 2 - Estrutura de programa Cobol
+  Divisoes ( Identification, Environment ,Data e Procedure)
+  Colunas, Areas A e B , Area de Remarks, Continuacao de linha, Comentarios
+  
+Aula 3 - Comandos básicos - 1o programa (PRGCOB1)
+     Accept, Display, Move, Stop Run
+     
+Aula 4 - Variaveis (PRGCOB2, PRGCOB3 e PRGCOB4)     
+   Niveis 01.02.., 77,  Pictures , Virgula
+   
+Aula 5 - Comandos Aritmeticos (PRGCOB5 e  PRGCOB6)
+   Add, Subtract,Divide, Multiply, Compute
+   
+Aula 6 - Tomando decisões
+    Comandos If/Else e Evaluate
+     Operadores de comparação Equal, Greather, Less 
+     
+Aula 7 - Outros tipos de variaveis     
+   Variaveis nivel 88 (lógica)  e 66 (rename)
+   
+Aula 8 - Validando tipo de variavel
+   Is Numeric , Is Alphabetic
+   Is negative
+
+Aula 9 - Operadores Relacionais
+    And , OR
+    
+Aula 10 - Uso de paragrafos e  conceito e lógica estruturada
+   Paragrafos, Section e desvio com comando Perform
+   
+Aula 11 - Formas de usar o Perform
+  Loops finitos (Perform Times e Varying)
+  Loop com condicional (Perform Until)
+  
+Aula 12 - Tabela de memória - Arrays
+      Criacao de variaveis tipo indice (array)
+       Comando OCCURS
+
+
+
+  
