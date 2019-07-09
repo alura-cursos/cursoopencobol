@@ -13,7 +13,8 @@ Aula 2
      Accept, Display, Move, Stop Run
 - Variaveis (PRGCOB02, PRGCOB03 e PRGCOB04)     
    Niveis 01.02.., 77,  Pictures , Virgula
-   
+  Variaveis nivel 88 (lógica)  e 66 (rename)
+  
 Aula 3 - Comandos Aritmeticos (PRGCOB05 e  PRGCOB06)
    Add, Subtract,Divide, Multiply, Compute, Uso do Sinal
    
@@ -25,9 +26,7 @@ Aula 4 - Tomando decisões (PRGCOB07 ,  PRGCOB08 e PRGCOB08-1)
      Is negative   (PROGCOB12) 
      And , OR (PROGCOB13)
 
-Aula 5 - Outros tipos de variaveis      (PRGCOB09 e PRGCOB10)
-   Variaveis nivel 88 (lógica)  e 66 (rename)
-   
+  
   
 Aula 06 - Uso de paragrafos e  conceito e lógica estruturada (PRGCOB014)
    Paragrafos, Section e desvio com comando Perform
