@@ -15,7 +15,6 @@
        77 WRK-NOTA1      PIC 9(02)     VALUE ZEROS.
        77 WRK-NOTA2       PIC 9(02)     VALUE ZEROS.       
        77 WRK-MEDIA       PIC 9(02)V9     VALUE ZEROS.
-       77 WRK-STATUS      PIC X(12)     VALUE SPACES.
         PROCEDURE DIVISION.
            DISPLAY 'DIGITE A PRIMEIRA NOTA..... : '.
              ACCEPT WRK-NOTA1.
@@ -30,16 +29,14 @@
              DISPLAY '== MEDIA DO ALUNO ======  ' WRK-MEDIA.
              
       *********** DEFINIR STATUS - COMANDO IF *******************
-             IF WRK-MEDIA >= 07 
-                MOVE 'APROVADO' TO WRK-STATUS                
+             IF WRK-MEDIA >= 06 
+                DISPLAY 'APROVADO' 
                   ELSE  
-                      IF WRK-MEDIA >= 03 
-                          MOVE 'RECUPERACAO' TO WRK-STATUS
+                      IF WRK-MEDIA >= 02 
+                          DISPLAY 'RECUPERACAO'  
                       ELSE 
-                          MOVE 'REPROVADO' TO WRK-STATUS
+                          DISPLAY 'REPROVADO'  
                       END-IF
               END-IF.
-               DISPLAY '==========================='.
-               DISPLAY 'STATUS DO ALUNO  ' WRK-STATUS.
-               DISPLAY '==========================='.               
+            
            STOP RUN.
