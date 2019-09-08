@@ -20,25 +20,21 @@
             PERFORM 0100-INICIALIZAR.
              IF WRK-VENDAS GREATER 0 
                PERFORM 0200-PROCESSAR UNTIL WRK-VENDAS = 0
-             END-IF.  
-               PERFORM 0300-FINALIZAR
-             STOP RUN.
+            END-IF.  
+           PERFORM 0300-FINALIZAR.
+           STOP RUN.
+      
        0100-INICIALIZAR.     
-            PERFORM 0400-ENTRADA-DADOS.
+            DISPLAY 'DIGITE O NUMERO..... : '.
+            ACCEPT WRK-VENDAS.
+      
        0200-PROCESSAR.
              ADD 1 TO WRK-QT.
              ADD WRK-VENDAS TO WRK-ACUM.
-              PERFORM 0400-ENTRADA-DADOS.
+              PERFORM 0100-INICIALIZAR.
             
        0300-FINALIZAR.     
-             DISPLAY  '--------- SAIDA DE DADOS ------------'.
+             DISPLAY  '---------------------'.
+              DISPLAY 'TOTAL DAS VENDAS     ' WRK-ACUM.
               DISPLAY 'QUANTIDADE DE VENDAS ' WRK-QT.
-                MOVE WRK-ACUM TO WRK-ACUM-ED.
-              DISPLAY 'TOTAL DAS VENDAS     ' WRK-ACUM-ED.
-               COMPUTE WRK-MEDIA = WRK-ACUM / WRK-VENDAS.
-             DISPLAY '-------------------------------'.  
-             DISPLAY ' FIM DE PROCESSAMENTO '.
-
-       0400-ENTRADA-DADOS.
-            DISPLAY 'DIGITE O NUMERO..... : '.
-            ACCEPT WRK-VENDAS.
+              DISPLAY ' FIM DE PROCESSAMENTO '.
