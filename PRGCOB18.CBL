@@ -14,15 +14,15 @@
            DECIMAL-POINT IS COMMA.
        DATA DIVISION.
        WORKING-STORAGE SECTION.
-           COPY 'VARIAVEIS.COB'.  -> BOOK
+           COPY 'BOOK.COB'.   
        PROCEDURE DIVISION.
        0001-PRINCIPAL.
             PERFORM 0100-INICIALIZAR.
              IF WRK-VENDAS GREATER 0 
                PERFORM 0200-PROCESSAR UNTIL WRK-VENDAS = 0
+             END-IF.  
                PERFORM 0300-FINALIZAR
-            END-IF.  
-            STOP RUN.
+             STOP RUN.
        0100-INICIALIZAR.     
             PERFORM 0400-ENTRADA-DADOS.
        0200-PROCESSAR.
