@@ -18,10 +18,10 @@
        PROCEDURE DIVISION.
        0001-PRINCIPAL.
             PERFORM 0100-INICIALIZAR.
-             IF WRK-NUMERO GREATER 0 
+             IF WRK-NUMERO > 0 
                PERFORM 0200-PROCESSAR
-               PERFORM 0300-FINALIZAR
             END-IF.  
+               PERFORM 0300-FINALIZAR
             STOP RUN.
        0100-INICIALIZAR.     
             DISPLAY 'DIGITE O NUMERO..... : '.
