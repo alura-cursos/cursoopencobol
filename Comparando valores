@@ -32,20 +32,19 @@
       *********** OPERACAO CALCULO FRETE - COMANDO EVALUATE ***********   
               EVALUATE WRK-UF
                  WHEN 'SP'
-                   COMPUTE WRK-FRETE = WRK-VALOR * 0,10
+                   COMPUTE WRK-FRETE = WRK-VALOR * 1,10
                  WHEN 'RJ'
-                   COMPUTE WRK-FRETE = WRK-VALOR * 0,15
+                   COMPUTE WRK-FRETE = WRK-VALOR * 1,15
                  WHEN 'MG'
-                   COMPUTE WRK-FRETE = WRK-VALOR * 0,20
+                   COMPUTE WRK-FRETE = WRK-VALOR * 1,20
                  WHEN OTHER
-                    COMPUTE WRK-FRETE = 0 
+                       DISPLAY 'NAO PODEMOS ENTREGAR NESSE ESTADO'
                 END-EVALUATE.
                 
                DISPLAY '==========================='.
-                   IF WRK-FRETE GREATER 0 
-                       DISPLAY 'NAO PODEMOS ENTREGAR NESSE ESTADO'
-                   ELSE   
-                       DISPLAY 'VALOR DO FRETE   ' WRK-FRETE
+                   IF WRK-FRETE NOT EQUAL 0 
+                       DISPLAY 'VALOR DO PRODUTO COM FRETE   ' WRK-FRETE
                    END-IF.
+      
                    DISPLAY '==========================='.               
            STOP RUN.
