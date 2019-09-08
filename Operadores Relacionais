@@ -21,15 +21,11 @@
              ACCEPT WRK-LARGURA.
            DISPLAY 'DIGITE O COMPRIMENTO. : '.
              ACCEPT WRK-COMPRIMENTO.
-           IF WRK-LARGURA GREATER 0 AND WRK-COMPRIMENTO GREATER 0 
-              
+           IF WRK-LARGURA > 0 AND WRK-COMPRIMENTO > 0 
+             COMPUTE WRK-AREA = WRK-LARGURA * WRK-COMPRIMENTO              
              DISPLAY  '--------- SAIDA DE DADOS ------------'
-             DISPLAY 'LARGURA..... : ' WRK-LARGURA
-             DISPLAY 'COMPRIMENTO. : ' WRK-COMPRIMENTO
-             COMPUTE WRK-AREA = WRK-LARGURA * WRK-COMPRIMENTO
-             DISPLAY 'AREA.......  : ' WRK-AREA
-           
-           ELSE  
+              DISPLAY 'AREA.......  : ' WRK-AREA
+            ELSE  
                 DISPLAY 'NENHUM VALOR PODE SER = 0 '
            END-IF.     
            
